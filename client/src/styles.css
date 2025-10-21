@@ -1,2 +1,87 @@
 /* You can add global styles to this file, and also import other style files */
 @import "tailwindcss";
+
+@font-face {
+  font-family:Bowlby ;
+  src: url(/public/fonts/Bowlby_One/BowlbyOne-Regular.ttf);
+}
+.bowl{
+  font-family:Bowlby,sans-serif;
+}
+
+@font-face {
+  font-family:Oswald ;
+  src: url(../public/fonts/oswald/Oswald-VariableFont_wght.ttf);
+}
+.oswal{
+  font-family:Oswald,sans-serif;
+}
+
+@font-face {
+  font-family: 'PoppinsBlack';
+  font-weight: 900;
+  src: url(/public/fonts/Poppins/Poppins-Black.ttf);
+}
+.popblack {
+  font-family: 'PoppinsBlack', sans-serif;
+  font-weight: 900;
+}
+
+
+@font-face {
+  font-family: 'PT Sans Narrow';
+  font-weight: 400;
+  src: url(/public/Fonts/PT_Sans_Narrow/PT_Sans-Narrow-Web-Regular.ttf);
+}
+.italiPT {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Danching_Script';
+  font-weight: 300;
+  src: url(/public/Fonts/Dancing_Scriptf/DancingScript-VariableFont_wght.ttf);
+}
+.dspt {
+  font-family: 'Danching_Script', sans-serif;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Old Standard TT';
+  font-weight: 400;
+  src: url(/public/Fonts/Old_Standard_TT);
+}
+.oldstylee {
+  font-family: 'Old Standard TT',Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Old Standard TT';
+  font-weight: 400;
+  src: url(/public/Fonts/Old_Standard_TT);
+}
+.oldstyle {
+  font-family: 'Old Standard TT', serif;
+  font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Galter' ;
+    src: url(/public/fonts/Galter/Galter.otf);
+}
+
+.Galter {
+    font-family: 'Galter', sans-serif;
+}
+
+@font-face {
+    font-family:'Brico';
+    src: url(/public/fonts/Brico/BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf);
+}
+.Brico {
+    font-family: 'Brico', sans-serif;
+}
+ 

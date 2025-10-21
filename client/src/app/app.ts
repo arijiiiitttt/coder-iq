@@ -5,7 +5,7 @@ import { Header } from './components/header/header';
 
 @Component({
   selector: 'app-root',
-  imports: [Header,Body,Fooder],
+  imports: [Header, Body, Fooder],
   template: `
   <app-header></app-header>
   <app-body></app-body>
