@@ -1,15 +1,15 @@
 import { Component, signal } from '@angular/core';
 import { Body } from './components/body/body';
-import { Fooder } from './components/fooder/fooder';
 import { Header } from './components/header/header';
+import { Fooder } from './components/fooder/fooder';
 
 @Component({
   selector: 'app-root',
   imports: [Header, Body, Fooder],
   template: `
   <app-header></app-header>
-  <app-body></app-body>
-  <app-fooder></app-fooder>
+  <app-body class=""></app-body>
+<app-fooder></app-fooder>
   `,
 
 })

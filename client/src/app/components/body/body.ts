@@ -7,10 +7,16 @@ import { Bodyy } from '../bodyy/bodyy';
   standalone: true,
   imports: [RouterOutlet, Bodyy],
   template: `
-<div class="p-4 flex flex-row gap-x-4 justify-center items-center">
- <router-outlet></router-outlet>
-      <app-bodyy></app-bodyy>
-</div>   
+    <div class="w-full flex justify-center">
+      <div class="max-w-[1200px] w-full flex justify-between items-start px-4 py-6 gap-6">
+                <div class="w-[78%] bg-[#ffd43b] min-h-screen p-4">
+          <router-outlet></router-outlet>
+        </div>
+        <div class="w-[22%] bg-[#b35300] min-h-screen p-4">
+          <app-bodyy></app-bodyy>
+        </div>
+      </div>
+    </div>
   `,
 })
 export class Body {}

@@ -4,9 +4,9 @@ import { Component } from '@angular/core';
   selector: 'app-fooder',
   imports: [],
   template: `
-<fooder>
+<div>
 fooder works!
-</fooder>
+</div>
   `,
 })
 export class Fooder {

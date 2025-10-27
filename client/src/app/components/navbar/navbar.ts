@@ -15,7 +15,7 @@ import { CommonModule } from '@angular/common';
       >
         <li><a routerLink="/home" routerLinkActive="active-link" class="nav-link" [routerLinkActiveOptions]="{ exact: true }">HOME</a></li>
         <li><a routerLink="/top" routerLinkActive="active-link" class="nav-link">TOP</a></li>
-        <li><a routerLink="/catalog" routerLinkActive="active-link" class="nav-link">CATALOG</a></li>
+        <li><a routerLink="/discussion" routerLinkActive="active-link" class="nav-link">DISCUSSION</a></li>
         <li><a routerLink="/contests" routerLinkActive="active-link" class="nav-link">CONTESTS</a></li>
         <li><a routerLink="/gym" routerLinkActive="active-link" class="nav-link">GYM</a></li>
         <li><a routerLink="/problemset" routerLinkActive="active-link" class="nav-link">PROBLEMSET</a></li>
