@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   imports: [],
   template: `
 <div>
-fooder works!
+fooder workss
 </div>
   `,
 })
