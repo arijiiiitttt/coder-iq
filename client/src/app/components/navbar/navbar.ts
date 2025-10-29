@@ -21,7 +21,7 @@ import { CommonModule } from '@angular/common';
         <li><a routerLink="/problemset" routerLinkActive="active-link" class="nav-link">PROBLEMSET</a></li>
         <li><a routerLink="/groups" routerLinkActive="active-link" class="nav-link">GROUPS</a></li>
         <li><a routerLink="/rating" routerLinkActive="active-link" class="nav-link">RATING</a></li>
-        <li><a routerLink="/calendar" routerLinkActive="active-link" class="nav-link">CALENDAR</a></li>
+        <li><a routerLink="/about" routerLinkActive="active-link" class="nav-link">ABOUT</a></li>
         <li><a routerLink="/help" routerLinkActive="active-link" class="nav-link">HELP</a></li>
       </ul>
   <div class="flex items-center mr-3 relative">
